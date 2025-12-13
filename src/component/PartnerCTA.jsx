@@ -41,7 +41,7 @@ const PartnerCTA = () => {
                             Partner with <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-400">Impact</span>
                         </h2>
 
-                        <p className="text-slate-300 text-lg mb-8 leading-relaxed">
+                        <p className="text-white text-lg md:text-xl font-semibold mb-8 leading-relaxed drop-shadow-md">
                             Join the Adventure Triangle network. We connect verified operators with a global audience of authentic travelers who crave unique experiences.
                         </p>
 
@@ -52,8 +52,8 @@ const PartnerCTA = () => {
                                 'Dedicated support and marketing tools',
                                 'Verified reviews and reputation building'
                             ].map((item, index) => (
-                                <li key={index} className="flex items-center gap-3 text-slate-400">
-                                    <span className="w-5 h-5 rounded-full bg-blue-500/20 flex items-center justify-center text-blue-400 text-xs font-bold">✓</span>
+                                <li key={index} className="flex items-center gap-3 text-white font-medium text-lg">
+                                    <span className="w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs font-bold shadow-lg shadow-blue-500/50">✓</span>
                                     {item}
                                 </li>
                             ))}

@@ -21,23 +21,23 @@ const About = () => {
                             thrill-seekers with local experts and exclusive events worldwide.
                         </p>
 
-                        <div className="space-y-6">
-                            <div className="flex items-start gap-4 group glass p-6 rounded-2xl hover:border-blue-500/30 transition-all duration-300">
-                                <div className="p-4 rounded-xl bg-blue-500/10 border border-blue-500/20 group-hover:scale-110 transition-transform duration-300">
-                                    <span className="text-3xl">🌍</span>
+                        <div className="space-y-4 w-full">
+                            <div className="flex items-start gap-4 group glass px-6 py-8 rounded-xl hover:border-blue-500/30 transition-all duration-300">
+                                <div className="p-3 rounded-lg bg-blue-500/10 border border-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+                                    <span className="text-xl">🌍</span>
                                 </div>
                                 <div>
-                                    <h3 className="text-white font-extrabold text-2xl mb-2">Authentic Connections</h3>
-                                    <p className="text-slate-300 font-medium text-base">Direct access to verified operators, cutting out the middlemen.</p>
+                                    <h3 className="text-white font-bold text-lg mb-2">Authentic Connections</h3>
+                                    <p className="text-slate-300 font-medium text-sm leading-relaxed">Direct access to verified operators, cutting out the middlemen.</p>
                                 </div>
                             </div>
-                            <div className="flex items-start gap-4 group glass p-6 rounded-2xl hover:border-blue-500/30 transition-all duration-300">
-                                <div className="p-4 rounded-xl bg-blue-500/10 border border-blue-500/20 group-hover:scale-110 transition-transform duration-300">
-                                    <span className="text-3xl">🛡️</span>
+                            <div className="flex items-start gap-4 group glass px-6 py-8 rounded-xl hover:border-blue-500/30 transition-all duration-300">
+                                <div className="p-3 rounded-lg bg-blue-500/10 border border-blue-500/20 group-hover:scale-110 transition-transform duration-300">
+                                    <span className="text-xl">🛡️</span>
                                 </div>
                                 <div>
-                                    <h3 className="text-white font-extrabold text-2xl mb-2">Safety First</h3>
-                                    <p className="text-slate-300 font-medium text-base">Every experience is vetted for safety standards and insurance compliance.</p>
+                                    <h3 className="text-white font-bold text-lg mb-2">Safety First</h3>
+                                    <p className="text-slate-300 font-medium text-sm leading-relaxed">Every experience is vetted for safety standards and insurance compliance.</p>
                                 </div>
                             </div>
                         </div>

@@ -8,11 +8,7 @@ const Hero = () => {
             <div className="container mx-auto px-6 relative z-10 text-center">
 
                 {/* Badge/Tag */}
-                <div className="inline-block mb-6 opacity-0 animate-fade-in-up">
-                    <span className="py-2 px-6 rounded-full border border-blue-500/30 bg-blue-950/30 backdrop-blur-md text-blue-200 text-sm font-bold tracking-widest uppercase shadow-[0_0_15px_rgba(30,58,138,0.5)]">
-                        The Next Frontier
-                    </span>
-                </div>
+
 
                 {/* Main Headline */}
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-white/50 mb-8 opacity-0 animate-fade-in-up delay-100 drop-shadow-2xl leading-tight">
