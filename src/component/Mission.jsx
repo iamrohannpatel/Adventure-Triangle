@@ -12,7 +12,7 @@ const Mission = () => {
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
                         Unlock the World.
                     </h2>
-                    <p className="text-slate-400 max-w-2xl mx-auto leading-relaxed">
+                    <p className="text-white text-lg md:text-xl font-semibold max-w-2xl mx-auto leading-relaxed drop-shadow-md">
                         We are categorizing the planet's most thrilling experiences into three core elements.
                         Choose your domain.
                     </p>

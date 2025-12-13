@@ -17,7 +17,7 @@ const Campaign = () => {
                         Share your journey. Inspire the world. Tag us to be featured in our monthly showcase.
                     </p>
                     <button className="px-10 py-4 bg-white text-slate-950 font-bold rounded-full hover:bg-slate-200 transition shadow-xl hover:scale-105 duration-300">
-                        View Gallery
+                        View Adventures
                     </button>
                 </div>
             </div>

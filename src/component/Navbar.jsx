@@ -26,8 +26,12 @@ const Navbar = () => {
 
                 {/* Navigation Links */}
                 <div className="hidden md:flex items-center space-x-10 p-2 rounded-full border border-white/5 bg-white/5 backdrop-blur-sm">
-                    {['Mission', 'About', 'Campaign'].map((item) => (
-                        <a key={item} href={`#${item.toLowerCase()}`} className="relative text-sm font-medium text-slate-300 hover:text-white transition-colors px-4 py-1">
+                    {['Home', 'About', 'Mission', 'Campaign'].map((item) => (
+                        <a
+                            key={item}
+                            href={item === 'Home' ? '#' : `#${item.toLowerCase()}`}
+                            className="relative text-sm font-medium text-slate-300 hover:text-white transition-colors px-4 py-1"
+                        >
                             {item}
                         </a>
                     ))}

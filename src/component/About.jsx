@@ -10,7 +10,7 @@ const About = () => {
                     {/* Left Column: Content */}
                     <div>
                         <span className="text-blue-400 font-extrabold tracking-widest text-sm uppercase mb-6 block shadow-blue-500/50 drop-shadow-sm">
-                            About Us
+                            About Adventure Triangle
                         </span>
                         <h2 className="text-5xl md:text-6xl font-black text-white mb-8 leading-none tracking-tight drop-shadow-xl">
                             Building the Global <br />
