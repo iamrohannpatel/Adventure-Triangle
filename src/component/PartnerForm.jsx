@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { saveDummyData } from '../utils/formHandler';
 
 const PartnerForm = ({ isOpen, onClose }) => {
     const [formData, setFormData] = useState({
@@ -22,7 +23,7 @@ const PartnerForm = ({ isOpen, onClose }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         // Here you would typically handle the API call
-        console.log('Form submitted:', formData);
+        saveDummyData(formData, 'PartnerForm');
         // Reset form or show success message
         onClose();
     };

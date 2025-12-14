@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { saveDummyData } from '../utils/formHandler';
 
 const PartnerCTA = () => {
     const [formData, setFormData] = useState({
@@ -19,7 +20,7 @@ const PartnerCTA = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
+        saveDummyData(formData, 'PartnerCTA');
     };
 
     return (

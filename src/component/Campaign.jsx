@@ -13,12 +13,12 @@ const Campaign = () => {
                     {/* Content Side */}
                     <div className="text-left">
                         <span className="text-blue-400 font-bold tracking-widest text-sm uppercase mb-4 block drop-shadow-sm">
-                            Join the Movement
+                            Global Campaign
                         </span>
                         <h2 className="text-5xl md:text-7xl font-black text-white mb-6 leading-tight drop-shadow-xl">
                             Share Your <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
-                                #Adventure
+                            <span className="text-3xl md:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                                #FeelTheAdventure
                             </span>
                         </h2>
                         <p className="text-slate-300 text-lg md:text-xl mb-10 leading-relaxed max-w-lg font-medium">

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { saveDummyData } from '../utils/formHandler';
 
 const BetaRegistration = () => {
     const [email, setEmail] = useState('');
@@ -6,7 +7,7 @@ const BetaRegistration = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Beta signup:', email);
+        saveDummyData({ email }, 'BetaRegistration');
         setSubmitted(true);
         setTimeout(() => setSubmitted(false), 3000);
     };
