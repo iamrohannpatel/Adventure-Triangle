@@ -115,7 +115,6 @@ To test the forms (Beta, Partner, Launch Event):
 
 **Rohan Patel**
 -   LinkedIn: [iamrohannpatel](https://www.linkedin.com/in/iamrohannpatel/)
--   Instagram: [adventure.triangle](https://www.instagram.com/adventure.triangle)
 
 ---
 
