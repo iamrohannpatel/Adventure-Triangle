@@ -23,12 +23,12 @@ const Hero = () => {
 
                 {/* Buttons */}
                 <div className="flex flex-col md:flex-row gap-6 justify-center items-center opacity-0 animate-fade-in-up delay-300">
-                    <a href="#mission" className="group relative px-8 py-4 bg-white text-slate-950 rounded-full font-bold text-lg tracking-wide overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(255,255,255,0.4)] animate-glow">
+                    <a href="#partner" className="group relative px-8 py-4 bg-white text-slate-950 rounded-full font-bold text-lg tracking-wide overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_40px_rgba(255,255,255,0.4)] animate-glow">
                         <span className="relative z-10">Join as a Partner</span>
                         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
                     </a>
 
-                    <a href="#about" className="px-8 py-4 rounded-full border border-white/20 hover:bg-white/5 backdrop-blur-sm text-white font-semibold tracking-wide transition-all hover:border-white/50">
+                    <a href="#beta" className="px-8 py-4 rounded-full border border-white/20 hover:bg-white/5 backdrop-blur-sm text-white font-semibold tracking-wide transition-all hover:border-white/50">
                         Explore Beta
                     </a>
                 </div>

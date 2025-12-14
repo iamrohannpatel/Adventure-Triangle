@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { saveDummyData } from '../utils/formHandler';
 
 const LaunchEvent = () => {
     const [formData, setFormData] = useState({ name: '', email: '', city: '' });
@@ -6,7 +7,7 @@ const LaunchEvent = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Registration submitted:', formData);
+        saveDummyData(formData, 'LaunchEvent');
         setSubmitted(true);
         // Reset after 3 seconds for demo purposes
         setTimeout(() => setSubmitted(false), 3000);
@@ -81,7 +82,7 @@ const LaunchEvent = () => {
                                             type="text"
                                             required
                                             className="w-full bg-slate-900/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-purple-500 transition-all placeholder-slate-600"
-                                            placeholder="Jane Doe"
+                                            placeholder="Rohan Patel"
                                             value={formData.name}
                                             onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                         />
@@ -93,7 +94,7 @@ const LaunchEvent = () => {
                                             type="email"
                                             required
                                             className="w-full bg-slate-900/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-purple-500 transition-all placeholder-slate-600"
-                                            placeholder="jane@example.com"
+                                            placeholder="rohan@gmail.com"
                                             value={formData.email}
                                             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                         />

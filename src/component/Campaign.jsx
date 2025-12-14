@@ -26,7 +26,7 @@ const Campaign = () => {
                                 #FeelTheAdventure
                             </span>
                         </h2>
-                        <p className="text-slate-300 text-lg md:text-xl mb-10 leading-relaxed max-w-lg font-medium">
+                        <p className="text-slate-300 text-lg md:text-xl mb-10 leading-relaxed max-w-lg font-bold">
                             From the highest peaks to the deepest oceans, our community is capturing moments that define the human spirit. Tag us to be featured.
                         </p>
 
@@ -34,9 +34,9 @@ const Campaign = () => {
                             <button className="px-8 py-4 bg-white text-slate-950 font-bold rounded-full hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:scale-105">
                                 View Gallery
                             </button>
-                            <button className="px-8 py-4 border border-white/10 glass text-white font-bold rounded-full hover:bg-white/10 transition-all hover:scale-105">
+                            <a href="https://www.instagram.com/adventure.triangle?igsh=MWR2M2R4bHJ6amd3" target="_blank" rel="noopener noreferrer" className="px-8 py-4 border border-white/10 glass text-white font-bold rounded-full hover:bg-white/10 transition-all hover:scale-105 inline-block">
                                 Follow on Instagram
-                            </button>
+                            </a>
                         </div>
 
                         <div className="mt-12 flex items-center gap-4 text-sm text-slate-500 font-mono">
@@ -47,7 +47,7 @@ const Campaign = () => {
                                     </div>
                                 ))}
                             </div>
-                            <span>+50k Adventurers joined</span>
+                            <span className="font-sans font-black text-white text-base tracking-wide">+50k Adventurers joined</span>
                         </div>
                     </div>
 

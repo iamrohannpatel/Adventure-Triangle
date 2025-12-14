@@ -22,6 +22,7 @@ const Mission = () => {
                 <div className="grid md:grid-cols-3 gap-8">
 
                     {/* Water Adventures */}
+                    {/* Water Adventures */}
                     <div className="group p-8 rounded-2xl glass border-blue-500/30 md:border-white/10 hover:border-blue-500/30 transition-all duration-500 hover:-translate-y-2">
                         <div className="w-14 h-14 bg-blue-500/10 rounded-full flex items-center justify-center text-blue-400 mb-6 group-hover:scale-110 transition-transform duration-300">
                             <span className="text-2xl">🌊</span>
@@ -30,9 +31,9 @@ const Mission = () => {
                         <p className="text-slate-400 text-sm leading-relaxed mb-6">
                             From deep-sea diving in the Maldives to kayaking through Norwegian fjords.
                         </p>
-                        <span className="text-xs font-bold text-blue-400 uppercase tracking-wider opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-0 md:translate-y-2 group-hover:translate-y-0">
+                        <a href="#campaign" className="text-xs font-bold text-blue-400 uppercase tracking-wider opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-0 md:translate-y-2 group-hover:translate-y-0 inline-block">
                             Explore Water &rarr;
-                        </span>
+                        </a>
                     </div>
 
                     {/* Air Adventures */}
@@ -44,9 +45,9 @@ const Mission = () => {
                         <p className="text-slate-400 text-sm leading-relaxed mb-6">
                             Skydiving over Dubai, paragliding in the Swiss Alps, and hot air ballooning in Cappadocia.
                         </p>
-                        <span className="text-xs font-bold text-purple-400 uppercase tracking-wider opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-0 md:translate-y-2 group-hover:translate-y-0">
+                        <a href="#campaign" className="text-xs font-bold text-purple-400 uppercase tracking-wider opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-0 md:translate-y-2 group-hover:translate-y-0 inline-block">
                             Explore Air &rarr;
-                        </span>
+                        </a>
                     </div>
 
                     {/* Land Adventures */}
@@ -58,9 +59,9 @@ const Mission = () => {
                         <p className="text-slate-400 text-sm leading-relaxed mb-6">
                             Trekking Kilimanjaro, safaris in the Serengeti, and rock climbing in Yosemite.
                         </p>
-                        <span className="text-xs font-bold text-emerald-400 uppercase tracking-wider opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-0 md:translate-y-2 group-hover:translate-y-0">
+                        <a href="#campaign" className="text-xs font-bold text-emerald-400 uppercase tracking-wider opacity-100 md:opacity-0 group-hover:opacity-100 transition-opacity transform translate-y-0 md:translate-y-2 group-hover:translate-y-0 inline-block">
                             Explore Land &rarr;
-                        </span>
+                        </a>
                     </div>
 
                 </div>
