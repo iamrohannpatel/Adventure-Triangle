@@ -1,3 +1,8 @@
+import alpineImg from "../assets/images/alpine.png";
+import skyImg from "../assets/images/sky.png";
+import waterImg from "../assets/images/water.png";
+import forestImg from "../assets/images/forest.png";
+
 const Campaign = () => {
     return (
         <section id="campaign" className="py-24 relative overflow-hidden">
@@ -52,23 +57,23 @@ const Campaign = () => {
                         <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/5 to-purple-500/5 rounded-3xl blur-3xl -z-10"></div>
 
                         <div className="space-y-4 pt-12">
-                            <div className="h-64 rounded-2xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 glass border border-white/10 hover:border-white/30 hover:scale-[1.02] transition-all duration-500 flex items-end p-6 group cursor-pointer shadow-lg overflow-hidden relative">
-                                <div className="absolute inset-0 bg-blue-900/20 group-hover:bg-transparent transition-colors duration-500"></div>
-                                <span className="text-white font-bold opacity-70 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0 duration-300 relative z-10">Alpine Trekking</span>
+                            <div className="h-64 rounded-2xl bg-cover bg-center border border-white/10 hover:border-white/30 hover:scale-[1.02] transition-all duration-500 flex items-end p-6 group cursor-pointer shadow-lg relative overflow-hidden" style={{ backgroundImage: `url(${alpineImg})` }}>
+                                <div className="absolute inset-0 bg-slate-900/40 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                                <span className="text-white font-bold text-lg relative z-10 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">Alpine Trekking</span>
                             </div>
-                            <div className="h-48 rounded-2xl bg-slate-800/50 glass border border-white/10 hover:border-white/30 hover:scale-[1.02] transition-all duration-500 flex items-end p-6 group cursor-pointer shadow-lg relative overflow-hidden">
-                                <div className="absolute inset-0 bg-sky-900/20 group-hover:bg-transparent transition-colors duration-500"></div>
-                                <span className="text-white font-bold opacity-70 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0 duration-300 relative z-10">Deep Diving</span>
+                            <div className="h-48 rounded-2xl bg-cover bg-center border border-white/10 hover:border-white/30 hover:scale-[1.02] transition-all duration-500 flex items-end p-6 group cursor-pointer shadow-lg relative overflow-hidden" style={{ backgroundImage: `url(${waterImg})` }}>
+                                <div className="absolute inset-0 bg-slate-900/40 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                                <span className="text-white font-bold text-lg relative z-10 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">Deep Diving</span>
                             </div>
                         </div>
                         <div className="space-y-4">
-                            <div className="h-48 rounded-2xl bg-slate-800/50 glass border border-white/10 hover:border-white/30 hover:scale-[1.02] transition-all duration-500 flex items-end p-6 group cursor-pointer shadow-lg relative overflow-hidden">
-                                <div className="absolute inset-0 bg-purple-900/20 group-hover:bg-transparent transition-colors duration-500"></div>
-                                <span className="text-white font-bold opacity-70 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0 duration-300 relative z-10">Sky High</span>
+                            <div className="h-48 rounded-2xl bg-cover bg-center border border-white/10 hover:border-white/30 hover:scale-[1.02] transition-all duration-500 flex items-end p-6 group cursor-pointer shadow-lg relative overflow-hidden" style={{ backgroundImage: `url(${skyImg})` }}>
+                                <div className="absolute inset-0 bg-slate-900/40 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                                <span className="text-white font-bold text-lg relative z-10 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">Sky High</span>
                             </div>
-                            <div className="h-80 rounded-2xl bg-gradient-to-br from-emerald-500/20 to-teal-500/20 glass border border-white/10 hover:border-white/30 hover:scale-[1.02] transition-all duration-500 flex items-end p-6 group cursor-pointer shadow-lg relative overflow-hidden">
-                                <div className="absolute inset-0 bg-emerald-900/20 group-hover:bg-transparent transition-colors duration-500"></div>
-                                <span className="text-white font-bold opacity-70 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0 duration-300 relative z-10">Forest Trails</span>
+                            <div className="h-80 rounded-2xl bg-cover bg-center border border-white/10 hover:border-white/30 hover:scale-[1.02] transition-all duration-500 flex items-end p-6 group cursor-pointer shadow-lg relative overflow-hidden" style={{ backgroundImage: `url(${forestImg})` }}>
+                                <div className="absolute inset-0 bg-slate-900/40 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                                <span className="text-white font-bold text-lg relative z-10 translate-y-2 group-hover:translate-y-0 transition-transform duration-300">Forest Trails</span>
                             </div>
                         </div>
                     </div>
